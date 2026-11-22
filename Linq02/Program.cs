@@ -112,6 +112,15 @@ namespace Linq02
 
             #endregion
 
+            #region Q12
+
+            // 12. Get a distinct list of all product categories
+            //var q12 = products.Select(p => p.Category).Distinct();
+            //foreach (var cat in q12) Console.WriteLine(cat);
+
+            #endregion
+
+
         }
     }
 }
