@@ -103,6 +103,15 @@ namespace Linq02
 
             #endregion
 
+            #region Q11
+
+            // 11. Find the CHEAPEST and MOST EXPENSIVE product prices
+            //decimal cheapest = products.Min(p => p.UnitPrice);
+            //decimal mostExpensive = products.Max(p => p.UnitPrice);
+            //Console.WriteLine($"Cheapest: ${cheapest}, Most Expensive: ${mostExpensive}");
+
+            #endregion
+
         }
     }
 }
