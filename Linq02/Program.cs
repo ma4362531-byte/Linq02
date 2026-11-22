@@ -184,6 +184,17 @@ namespace Linq02
             //Console.WriteLine(string.Join(", ", q19));
 
             #endregion
+
+            #region Q20
+
+            // 20. Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+            //var q20 = products.Take(3).Select(p => p.ProductName)
+            //                  .Concat(customers.Take(3).Select(c => c.CompanyName));
+            //foreach (var name in q20) Console.WriteLine(name);
+
+            #endregion
+
+
         }
     }
 }
