@@ -79,6 +79,22 @@ namespace Linq02
 
             #endregion
 
+            #region Q9
+
+            // 9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+            //var q9 = from c in customers
+            //         group c by c.Country into g
+            //         select new
+            //         {
+            //             Country = g.Key,
+            //             Count = g.Count(),
+            //             TotalOrderValue = g.Sum(x => x.TotalOrderValue)
+            //         };
+            //foreach (var item in q9)
+            //    Console.WriteLine($"{item.Country} | Count: {item.Count} | Total: ${item.TotalOrderValue}");
+
+            #endregion
+
         }
     }
 }
