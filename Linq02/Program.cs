@@ -144,6 +144,14 @@ namespace Linq02
 
             #endregion
 
+            #region Q15
+
+            // 15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+            //Dictionary<int, Product> productDict = products.ToDictionary(p => p.ProductID);
+            //if (productDict.TryGetValue(18, out Product? prod18))
+            //    Console.WriteLine(prod18);
+
+            #endregion
         }
     }
 }
