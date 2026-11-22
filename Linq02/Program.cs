@@ -27,6 +27,14 @@ namespace Linq02
 
             #endregion
 
+            #region Q3
+
+            // 3. Take products from the list as long as Their UnitPrice is less than $25 (list is ordered by price).
+            //var orderedProducts = products.OrderBy(p => p.UnitPrice);
+            //var q3 = orderedProducts.TakeWhile(p => p.UnitPrice < 25m);
+            //foreach (var p in q3) Console.WriteLine(p);
+            #endregion
+
 
         }
     }
