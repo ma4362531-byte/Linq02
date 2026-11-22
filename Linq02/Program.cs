@@ -152,6 +152,22 @@ namespace Linq02
             //    Console.WriteLine(prod18);
 
             #endregion
+
+            #region Q16
+
+            // 16. Get the first product whose price is greater than $50.
+            //var q16 = products.First(p => p.UnitPrice > 50m);
+            //Console.WriteLine(q16);
+
+            #endregion
+
+            #region Q17
+
+            // 17. Try to get the first product with a price > $500. it returns null instead of throwing.
+            //var q17 = products.FirstOrDefault(p => p.UnitPrice > 500m);
+            //Console.WriteLine(q17 == null ? "null (Not Found)" : q17.ToString());
+
+            #endregion
         }
     }
 }
