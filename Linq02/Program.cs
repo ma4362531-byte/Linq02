@@ -35,6 +35,13 @@ namespace Linq02
             //foreach (var p in q3) Console.WriteLine(p);
             #endregion
 
+            #region Q4
+
+            // 4. Check if ALL products in the "Seafood" category are in stock
+            //bool q4 = products.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+            //Console.WriteLine(q4);
+            #endregion
+
 
         }
     }
