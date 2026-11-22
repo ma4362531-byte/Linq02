@@ -194,6 +194,14 @@ namespace Linq02
 
             #endregion
 
+            #region Q21
+
+            // 21. Pair each product with a customer (by position) and produce a string "ProductName sold to CompanyName".
+            //var q21 = products.Zip(customers, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+            //foreach (var sentence in q21) Console.WriteLine(sentence);
+
+            #endregion
+
 
         }
     }
