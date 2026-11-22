@@ -168,6 +168,14 @@ namespace Linq02
             //Console.WriteLine(q17 == null ? "null (Not Found)" : q17.ToString());
 
             #endregion
+
+            #region Q18
+
+            // 18. Generate a multiplication table row for 7
+            //var q18 = Enumerable.Range(1, 10).Select(n => n * 7);
+            //Console.WriteLine(string.Join(", ", q18));
+
+            #endregion
         }
     }
 }
