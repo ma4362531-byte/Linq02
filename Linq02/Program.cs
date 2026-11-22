@@ -60,6 +60,15 @@ namespace Linq02
 
             #endregion
 
+            #region Q7
+
+            // 7. Group products by Category and project only product names per group
+            //var q7 = products.GroupBy(p => p.Category, p => p.ProductName);
+            //foreach (var group in q7)
+            //    Console.WriteLine($"{group.Key} => {string.Join(", ", group)}");
+
+            #endregion
+
         }
     }
 }
