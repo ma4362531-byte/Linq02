@@ -95,6 +95,14 @@ namespace Linq02
 
             #endregion
 
+            #region Q10
+
+            // 10. Calculate the total number of units in stock across all products
+            //int q10 = products.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(q10);
+
+            #endregion
+
         }
     }
 }
